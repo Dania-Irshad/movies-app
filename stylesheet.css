@@ -5,10 +5,10 @@ body {
     background-position: center;
     background-size: cover;
     margin: 0;
+    font-family: fantasy;
 }
 
 h1 {
-    font-family: fantasy;
     text-align: center;
     font-size: 50px;
     width: 100%;
@@ -47,6 +47,7 @@ form {
 }
 
 input {
+    font-family: fantasy;
     border-bottom: solid;
     border-top: none;
     border-left: none;
@@ -57,8 +58,59 @@ input {
     width: 400px;
     font-size: 30px;
     border-bottom-color: #2C272E;
+    font-weight: bold;
 }
 
 ::placeholder{
     color: #2C272E;
+    font-weight: bold;
+}
+
+#table-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#table {
+    table-layout: fixed;
+    width: 75%;
+    border-collapse: collapse;
+}
+
+th {
+    width: 50%;
+    font-size: 50px;
+    background-color: #8B8989;
+    color: #000;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #8B8989;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #B0A6A4;
+}
+
+tbody tr td{
+    text-align: center;
+    font-size: 30px;
+}
+
+.delete {
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 80%;
+    margin-left: .5em;
+    font-size: 25px;
+    color: #2C272E;
+    opacity: 75%;
+    cursor: pointer;
+}
+
+.delete:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em;
+    transform: translateY(-0.25em);
 }
