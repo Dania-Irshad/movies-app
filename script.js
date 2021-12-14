@@ -1,7 +1,7 @@
 $(document).ready(function () {
     $(form).submit(function (e) {
         e.preventDefault();
-        if ($('#rating').val() >= 0 && $('#rating').val() <= 10 && $('#title').val().length > 2)
+        if ($('#rating').val() >= 0 && $('#rating').val() <= 10 && $('#rating').val() !== '' && $('#title').val().length > 2)
         {
             if (!($('#table').length)) {
                 $('<table id="table"></table>').insertAfter('br');
