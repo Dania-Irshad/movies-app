@@ -1,0 +1,20 @@
+body {
+    background-image: url("https://images.unsplash.com/photo-1440404653325-ab127d49abc1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+}
+
+h1 {
+    font-family: fantasy;
+    text-align: center;
+    font-size: 50px;
+    width: 100%;
+    background-color: #2C272E;
+    color: #E6CCA9;
+    border-top: solid;
+    border-bottom: solid;
+    border-color: #E6CCA9;
+}
